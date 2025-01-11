@@ -34,11 +34,6 @@ android {
         warningsAsErrors true
         disable 'AndroidGradlePluginVersion', 'InvalidPackage', 'GradleDependency', 'NewerVersionAvailable'
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
-
 
     testOptions {
         unitTests.includeAndroidResources = true
